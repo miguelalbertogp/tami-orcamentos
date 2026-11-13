@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="TaMi Orçamentos">
+<meta name="theme-color" content="#f5ebdb">
+<title>TaMi Orçamentos</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+<link rel="icon" href="icones/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <img src="icones/logo.svg" alt="" class="logo">
+  <h1 id="titulo">Calculadora</h1>
+</header>
+<main id="ecra"></main>
+<nav class="tabs">
+  <button data-tab="calc" class="ativo"><span class="ic">🧮</span>Calculadora</button>
+  <button data-tab="lista"><span class="ic">📒</span>Orçamentos</button>
+  <button data-tab="defs"><span class="ic">⚙️</span>Definições</button>
+</nav>
+<div id="aviso" class="aviso"></div>
+<script src="app.js"></script>
+</body>
+</html>
